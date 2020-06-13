@@ -4,6 +4,17 @@ import java.util.Date;
 
 public class Demo1 {
     public static void main(String[] args) {
-        System.out.println("Sample1 Run Successfully at " + new Date());
+
+        UtilMethods um = new UtilMethods();
+
+        printMsg("Adding Two Values 10, 20");
+        printMsg(String.valueOf(um.addValues(10,20)));
+        printMsg("Subtracting Two Values 50, 20");
+        printMsg(String.valueOf(um.subtractValues(50,20)));
+
+        printMsg("Sample1 Run Successfully.");
+    }
+    public static void printMsg(String dataToPrint){
+        System.out.println("[" + new Date() +"] " + dataToPrint);
     }
 }
