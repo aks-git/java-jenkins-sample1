@@ -8,4 +8,9 @@ public class UtilMethods {
     public int subtractValues(int firstValue, int secondValue){
         return firstValue-secondValue;
     }
+
+    public int multiplyValues(int firstValue, int secondValue){
+        return firstValue*secondValue;
+    }
+
 }
