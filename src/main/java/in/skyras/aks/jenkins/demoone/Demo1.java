@@ -12,7 +12,7 @@ public class Demo1 {
         printMsg("Subtracting Two Values 50, 20");
         printMsg(String.valueOf(um.subtractValues(50,20)));
         printMsg("Multiplying Two Values 10, 10");
-        printMsg(String.valueOf(um.subtractValues(10,10)));
+        printMsg(String.valueOf(um.multiplyValues(10,10)));
 
         printMsg("Sample1 Run Successfully.");
     }
